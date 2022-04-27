@@ -38,6 +38,7 @@ const handleFilter = () => {
     selectcat.style.display = 'none'
     selectoshi.style.display = 'none'
     span.style.display = 'none'
+    copybutton.style.display = 'none'
     handleData()
 }
 const handleSelectRoot = () => {
@@ -46,6 +47,7 @@ const handleSelectRoot = () => {
 
     selectoshi.style.display = 'none'
     span.style.display = 'none'
+    copybutton.style.display = 'none'
 
     const dataSelected = filtered.find(e => e.root == selectroot.value)
     selectcat.innerHTML = '<option value="" selected disabled>Select</option>'
