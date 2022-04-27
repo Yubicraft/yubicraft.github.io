@@ -16,7 +16,7 @@ const categories = []
 for (const [key, value] of Object.entries(converted.deluxetags)) {
     if (!categories.includes(value.description)) categories.push(value.description)
 }
-const subcats = categories.map(e => ({ category: e, oshis: Object.entries(converted.deluxetags).filter(k => k[1].description == e).map(j => j[0].replace(/\s/g, '_')) }))
+const subcats = categories.map(e => ({ category: e, oshis: Object.entries(converted.deluxetags).filter(k => k[1].description == e).map(j => ({commandname:j[0].replace(/\s/g, ''), realname:j[0]})) }))
 
 const output = toplevel.map(e => ({
     root: e, categories: subcats.filter(j => {

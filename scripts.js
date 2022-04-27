@@ -41,7 +41,7 @@ const handleSelectCat = () => {
     const value = selectcat.value
     selectoshi.innerHTML = '<option value="" selected disabled>Select</option>'
     dataSelected.categories.find(e => e.category == value).oshis.forEach(e => {
-        selectoshi.innerHTML += `<option value="${e}">${e.replace(/_/g, ' ')}</option>`
+        selectoshi.innerHTML += `<option value="${e.commandname}">${e.realname}</option>`
     })
     selectoshi.style.display = 'inline'
 }
