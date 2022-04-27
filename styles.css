@@ -5,6 +5,20 @@ border-radius: 15px;
 border:1px solid black
 
 }
+.credit{
+    position: fixed;
+    min-width: initial;
+    width: initial;
+    bottom: 10px;
+    display: flex;
+    left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.credit > p {
+    font-size: 18px;
+    margin:0;
+}
 .end{
     display: flex;
     justify-content: center;
@@ -16,8 +30,9 @@ border:1px solid black
 }
 .container{
     border-radius: 20px;
-    background-color: #f4f4f4;
+    background-color: rgba(200,200,200, 0.5);
 }
 body{
-    background-image: url(./dirt.jpg);
+    background-image: url(./Tenma_yubi.jpg);
+    background-size: cover;
 }
