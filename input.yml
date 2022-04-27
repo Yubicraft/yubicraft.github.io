@@ -513,7 +513,7 @@ deluxetags:
   Hana Macchia:
     order: 82
     tag: '&8[&cNiji&eSenja&8]&r'
-    description: NijisanjiID
+    description: Nijisanji ID
     permission: deluxetags.tag.hanamacchia
   Finana Ryugu:
     order: 83
