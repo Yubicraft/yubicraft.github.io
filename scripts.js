@@ -1,25 +1,49 @@
 //test
 let data
+let filtered
+let filter = ""
 const selectroot = document.getElementById("selectroot")
 const selectcat = document.getElementById("selectcat")
 const selectoshi = document.getElementById("selectoshi")
 const copybutton = document.getElementById("copybutton")
+const filterinput = document.getElementById("filter")
 const span = document.getElementById("result")
 const startScript = async () => {
     data = await fetch("info.json")
         .then(response => response.json())
-    handleData(data)
+    handleData()
 }
 startScript()
-const handleData = (data) => {
 
+const handleData = () => {
+    console.log(data)
+    filtered = JSON.parse(JSON.stringify(data))
+    console.log(filter)
+    filtered.forEach(s =>  //iterate data
+    {
+        s.categories.forEach((t) => //iterate subs
+        {
+            t.oshis = t.oshis.filter(oshi => oshi.realname.toUpperCase().includes(filter.toUpperCase()))
+        }
+        )
+        s.categories = s.categories.filter(category => category.oshis.length > 0)
+    }
+
+    )
+    filtered = filtered.filter(root => root.categories.length > 0)
+    console.log(filtered)
     selectroot.innerHTML = '<option value="" selected disabled>Select</option>'
-    data.forEach(e => {
+    filtered.forEach(e => {
         selectroot.innerHTML += `<option value="${e.root}">${e.root}</option>`
     })
-    selectroot.addEventListener("change", handleSelectRoot)
-    selectcat.addEventListener("change", handleSelectCat)
-    selectoshi.addEventListener("change", printResult)
+
+}
+const handleFilter = () => {
+    filter = filterinput.value
+    selectcat.style.display = 'none'
+    selectoshi.style.display = 'none'
+    span.style.display = 'none'
+    handleData()
 }
 const handleSelectRoot = () => {
 
@@ -28,7 +52,7 @@ const handleSelectRoot = () => {
     selectoshi.style.display = 'none'
     span.style.display = 'none'
 
-    const dataSelected = data.find(e => e.root == selectroot.value)
+    const dataSelected = filtered.find(e => e.root == selectroot.value)
     selectcat.innerHTML = '<option value="" selected disabled>Select</option>'
     dataSelected.categories.forEach(e => {
         selectcat.innerHTML += `<option value="${e.category}">${e.category}</option>`
@@ -37,7 +61,7 @@ const handleSelectRoot = () => {
 }
 const handleSelectCat = () => {
 
-    const dataSelected = data.find(e => e.root == selectroot.value)
+    const dataSelected = filtered.find(e => e.root == selectroot.value)
     const value = selectcat.value
     selectoshi.innerHTML = '<option value="" selected disabled>Select</option>'
     dataSelected.categories.find(e => e.category == value).oshis.forEach(e => {
@@ -64,3 +88,7 @@ const copySelection = () => {
     document.execCommand('copy');
     document.body.removeChild(el);
 }
+selectroot.addEventListener("change", handleSelectRoot)
+selectcat.addEventListener("change", handleSelectCat)
+selectoshi.addEventListener("change", printResult)
+filterinput.addEventListener("keyup", handleFilter)
