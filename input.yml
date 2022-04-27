@@ -1,0 +1,932 @@
+# DeluxeTags version: 1.8.2-Release Main Configuration
+#
+# Create your tags using the following format:
+#
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+#
+# Placeholders for your chat plugin that supports PlaceholderAPI (Including DeluxeChat)
+#
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+#
+# Placeholders for your essentials/chat handling formats config:
+#
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+
+legacy_hex: false
+papi_chat: false
+# DeluxeTags version: 1.8.1 Main Configuration
+#
+# Create your tags using the following format:
+#
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+#
+# Placeholders for your DeluxeChat formats config:
+#
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+#
+# Placeholders for your essentials/chat handling formats config:
+#
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+force_tags: false
+check_updates: true
+deluxe_chat: false
+format_chat:
+  enabled: true
+  format: '{deluxetags_tag} <%1$s> %2$s'
+load_tag_on_join: true
+gui:
+  next_page:
+    material: PAPER
+    data: 0
+    displayname: '&6Next page: %page%'
+    lore:
+    - '&7Move to the next page'
+  previous_page:
+    material: PAPER
+    data: 0
+    displayname: '&6Previous page: %page%'
+    lore:
+    - '&7Move to the previous page'
+  name: '&6Available tags&f: &6{deluxetags_amount}'
+  tag_select_item:
+    material: NAME_TAG
+    data: 0
+    displayname: '&6Tag&f: &6{deluxetags_identifier}'
+    lore:
+    - '{deluxetags_tag}'
+    - '{deluxetags_description}'
+  divider_item:
+    material: STAINED_GLASS_PANE
+    data: 15
+    displayname: ''
+    lore: []
+  has_tag_item:
+    material: SKULL_ITEM
+    data: 3
+    displayname: '&eCurrent tag&f: &6{deluxetags_identifier}'
+    lore:
+    - '%deluxetags_tag%'
+    - Click to remove your current tag
+  no_tag_item:
+    material: SKULL_ITEM
+    data: 3
+    displayname: '&cYou don''t have a tag set.'
+    lore:
+    - '&7Click a tag above to select one.'
+  exit_item:
+    material: IRON_DOOR
+    data: 0
+    displayname: '&cClick to exit'
+    lore:
+    - '&7Exit the tags menu'
+deluxetags:
+  AzKi:
+    order: 0
+    tag: '&8[&cKaitakusha&8]&r'
+    description: hololive 0th gen
+    permission: deluxetags.tag.azki
+  Tokino Sora:
+    order: 1
+    tag: '&8[&bSoratomo&8]&r'
+    description: hololive 0th gen
+    permission: deluxetags.tag.sora
+  Roboco-san:
+    order: 2
+    tag: '&8[&4Robosa&8]&r'
+    description: hololive 0th gen
+    permission: deluxetags.tag.roboco
+  Sakura Miko:
+    order: 3
+    tag: '#FE8E96[35P]&r'
+    description: hololive 0th gen
+    permission: deluxetags.tag.miko
+  Hoshimachi Suisei:
+    order: 4
+    tag: '#6DBDFF[Hoshiyomi]&r'
+    description: hololive 0th gen
+    permission: deluxetags.tag.suisei
+  Yozora Mel:
+    order: 5
+    tag: '&8[&6Kabumin&8]&r'
+    description: hololive 1st Generation
+    permission: deluxetags.tag.mel
+  Aki Rosenthal:
+    order: 6
+    tag: '&8[&eRosetai&8]&r'
+    description: hololive 1st Generation
+    permission: deluxetags.tag.aki
+  Akai Haato:
+    order: 7
+    tag: '#ff0000[Haaton]&r'
+    description: hololive 1st Generation
+    permission: deluxetags.tag.haachama
+  Natsuiro Matsuri:
+    order: 8
+    tag: '&8[&eMatsurisu&8]&r'
+    description: hololive 1st Generation
+    permission: deluxetags.tag.matsuri
+  Minato Aqua:
+    order: 9
+    tag: '&8[&5AquaCrew&8]&r'
+    description: hololive 2nd Generation
+    permission: deluxetags.tag.aqua
+  Murasaki Shion:
+    order: 10
+    tag: '&5[Shi#bb58d1ok&5ko]&r'
+    description: hololive 2nd Generation
+    permission: deluxetags.tag.shion
+  Nakiri Ayame:
+    order: 11
+    tag: '&8[&cNakirigumi&8]&r'
+    description: hololive 2nd Generation
+    permission: deluxetags.tag.ayame
+  Yuzuki Choco:
+    order: 12
+    tag: '&8[&6Chocomaid&8]&r'
+    description: hololive 2nd Generation
+    permission: deluxetags.tag.choco
+  Oozora Subaru:
+    order: 13
+    tag: '&8[&aSubatomo&8]&r'
+    description: hololive 2nd Generation
+    permission: deluxetags.tag.subaru
+  Shirakami Fubuki:
+    order: 14
+    tag: '#808080[#FFFFFFSu#00FFFFkon#232323bu#808080]&r'
+    description: hololive GAMERS
+    permission: deluxetags.tag.fubuki
+  Ookami Mio:
+    order: 15
+    tag: '&8[&4Miofa&8]&r'
+    description: hololive GAMERS
+    permission: deluxetags.tag.mio
+  Nekomata Okayu:
+    order: 16
+    tag: '#AE62A7[Oni#636870gir#AE62A7iya]&r'
+    description: hololive GAMERS
+    permission: deluxetags.tag.okayu
+  Inugami Korone:
+    order: 17
+    tag: '#FFDE55[#A7746CK#E23764o#A7746Cr#6AC6D9o#A7746Cn#FFDE55e#EFF5EEsuki#FFDE55]&r'
+    description: hololive GAMERS
+    permission: deluxetags.tag.korone
+  Usada Pekora:
+    order: 18
+    tag: '&8[&bNousagi&8]&r'
+    description: hololive 3rd Generation
+    permission: deluxetags.tag.pekora
+  Uruha Rushia:
+    order: 19
+    tag: '&8[&aFandead&8]&r'
+    description: hololive 3rd Generation
+    permission: deluxetags.tag.rushia
+  Shiranui Flare:
+    order: 20
+    tag: '#FFDEA7[El#F7F8FBfr#FFDEA7iend]&r'
+    description: hololive 3rd Generation
+    permission: deluxetags.tag.flare
+  Shirogane Noel:
+    order: 21
+    tag: '&8[&1Knights&8]&r'
+    description: hololive 3rd Generation
+    permission: deluxetags.tag.noel
+  Houshou Marine:
+    order: 22
+    tag: '&8[&cIchimi&8]&r'
+    description: hololive 3rd Generation
+    permission: deluxetags.tag.marine
+  Amane Kanata:
+    order: 23
+    tag: '&8[&1Heimin&8]&r'
+    description: hololive 4th Generation
+    permission: deluxetags.tag.kanata
+  Kiryu Coco:
+    order: 24
+    tag: '&8[&6Tatsunoko&8]&r'
+    description: hololive 4th Generation
+    permission: deluxetags.tag.coco
+  Tsunomaki Watame:
+    order: 25
+    tag: '&8[&eWatamate&8]&r'
+    description: hololive 4th Generation
+    permission: deluxetags.tag.watame
+  Tokoyami Towa:
+    order: 26
+    tag: '&8[&5Kenzoku&8]&r'
+    description: hololive 4th Generation
+    permission: deluxetags.tag.towa
+  Himemori Luna:
+    order: 27
+    tag: '&8[&dLuKnight&8]&r'
+    description: hololive 4th Generation
+    permission: deluxetags.tag.luna
+  Yukihana Lamy:
+    order: 28
+    tag: '#B1D7EA[Yuki#54A8F2min]&r'
+    description: hololive 5th Generation
+    permission: deluxetags.tag.lamy
+  Momosuzu Nene:
+    order: 29
+    tag: '&8[&eShya&din&8]&r'
+    description: hololive 5th Generation
+    permission: deluxetags.tag.nene
+  Shishiro Botan:
+    order: 30
+    tag: '&8[&7Bo&8d&7an&8]&r'
+    description: hololive 5th Generation
+    permission: deluxetags.tag.botan
+  Omaru Polka:
+    order: 31
+    tag: '#FFFFFF[O#F3DFBEm#EB9DCDa#C11B31r#3E98E6u#F8DF9Fz#333333a]&r'
+    description: hololive 5th Generation
+    permission: deluxetags.tag.polka
+  Mano Aloe:
+    order: 32
+    tag: '&8[&5?????&8]&r'
+    description: hololive 5th Generation (former)
+    permission: deluxetags.tag.aloe
+  Laplus Darkness:
+    order: 33
+    tag: '&8[&5PlusMate&8]&r'
+    description: hololive 6th Generation
+    permission: deluxetags.tag.laplus
+  Takane Lui:
+    order: 34
+    tag: '&8[&cLuitomo&8]&r'
+    description: hololive 6th Generation
+    permission: deluxetags.tag.lui
+  Hakui Koyori:
+    order: 35
+    tag: '&8[&dAssistant&8]&r'
+    description: hololive 6th Generation
+    permission: deluxetags.tag.koyori
+  Sakamata Chloe:
+    order: 36
+    tag: '#705D57[#B34C47Shiikuin#705D57]&r'
+    description: hololive 6th Generation
+    permission: deluxetags.tag.chloe
+  Kazama Iroha:
+    order: 37
+    tag: '#F0D2B9[#5CA29DKazamatai#F0D2B9]&r'
+    description: hololive 6th Generation
+    permission: deluxetags.tag.iroha
+  Ayunda Risu:
+    order: 38
+    tag: '&8[&6Risuner&8]&r'
+    description: hololive ID 1st Generation
+    permission: deluxetags.tag.risu
+  Moona Hoshinova:
+    order: 39
+    tag: '&8[&9Moona&ef&9ic&8]&r'
+    description: hololive ID 1st Generation
+    permission: deluxetags.tag.moona
+  Airani Iofifteen:
+    order: 40
+    tag: '&8[&dI&fO&eF&fORIA&8]&r'
+    description: hololive ID 1st Generation
+    permission: deluxetags.tag.iofi
+  Kureiji Ollie:
+    order: 41
+    tag: '&8[&cZom&7rade&8]&r'
+    description: hololive ID 2nd Generation
+    permission: deluxetags.tag.ollie
+  Anya Melfissa:
+    order: 42
+    tag: '&8[&6Mel&1friend&8]&r'
+    description: hololive ID 2nd Generation
+    permission: deluxetags.tag.anya
+  Pavolia Reine:
+    order: 43
+    tag: '&8[&9MERA&7Kyat&8]&r'
+    description: hololive ID 2nd Generation
+    permission: deluxetags.tag.reine
+  Vestia Zeta:
+    order: 44
+    tag: '#202020[#7180e7Zecretary#202020]&r'
+    description: hololive ID 3rd Generation
+    permission: deluxetags.tag.zeta
+  Kobo Kanaeru:
+    order: 45
+    tag: '#1E9BC9[Kob#F6F6F7oke#05BDDDrz]&r'
+    description: hololive ID 3rd Generation
+    permission: deluxetags.tag.zeta
+  Kaela Kovalskia:
+    order: 46
+    tag: '#FFDD0F[P#FF1508ema#F2ECF2loe]&r'
+    description: hololive ID 3rd Generation
+    permission: deluxetags.tag.kaela
+  Gawr Gura:
+    order: 47
+    tag: '&8[&bChum&3bud&8]&r'
+    description: hololive EN 1st Generation
+    permission: deluxetags.tag.gura
+  Amelia Watson:
+    order: 48
+    tag: '#F8DB92[#FFFF00T#FFFF65e#F8DB92a#FFBA5Fm#FF9E44a#FF8228t#FF6700e#F8DB92]&r'
+    description: hololive EN 1st Generation
+    permission: deluxetags.tag.ame
+  Takanashi Kiara:
+    order: 49
+    tag: '#FF5121[#FF850CK#6DBDFFF#FF850CP#FF5121]&r'
+    description: hololive EN 1st Generation
+    permission: deluxetags.tag.kiara
+  Mori Calliope:
+    order: 50
+    tag: '&8[&dDead&8beat&8]&r'
+    description: hololive EN 1st Generation
+    permission: deluxetags.tag.mori
+  Ninomae Ina'nis:
+    order: 51
+    tag: '&8[&5Tako&7dachi&8]&r'
+    description: hololive EN 1st Generation
+    permission: deluxetags.tag.ina
+  IRyS:
+    order: 52
+    tag: '&8[&5Irys&1to&5crats&8]&r'
+    description: 'hololive EN Project: HOPE'
+    permission: deluxetags.tag.IRyS
+  Tsukumo Sana:
+    order: 53
+    tag: '&8[&eSana&9llites&8]&r'
+    description: hololive EN 2nd Generation
+    permission: deluxetags.tag.Tsukumo_Sana
+  Ceres Fauna:
+    order: 54
+    tag: '#CAB686[#B7D99BSapl#508BB7ings#CAB686]&r'
+    description: hololive EN 2nd Generation
+    permission: deluxetags.tag.Ceres_Fauna
+  Ouro Kronii:
+    order: 55
+    tag: '&8[&9Kro&7nies&8]&r'
+    description: hololive EN 2nd Generation
+    permission: deluxetags.tag.Ouro_Kronii
+  Nanashi Mumei:
+    order: 56
+    tag: '#b09684[#28795EHoo#b09684mans]&r'
+    description: hololive EN 2nd Generation
+    permission: deluxetags.tag.Nanashi_Mumei
+  Hakos Baelz:
+    order: 57
+    tag: '#FFFFFF[#17ECFEBa#F90707era#F4FB27ts#FFFFFF]&r'
+    description: hololive EN 2nd Generation
+    permission: deluxetags.tag.Hakos_Baelz
+  Hanasaki Miyabi:
+    order: 58
+    tag: '&8[&fHanami&cgumi&8]&r'
+    description: Holostars 1st Generation
+    permission: deluxetags.tag.miyabi
+  Kanade Izuru:
+    order: 59
+    tag: '&8[&9Nothing&7Gang&8]&r'
+    description: Holostars 1st Generation
+    permission: deluxetags.tag.kanade
+  Arurandeisu:
+    order: 60
+    tag: '&8[&fFa&7mi&2liaran&8]&r'
+    description: Holostars 1st Generation
+    permission: deluxetags.tag.aruran
+  Rikka:
+    order: 61
+    tag: '&8[&dTu&fner&8]&r'
+    description: Holostars 1st Generation
+    permission: deluxetags.tag.rikka
+  Astel Leda:
+    order: 62
+    tag: '&8[&9Astel&elas&8]&r'
+    description: Holostars 2nd Generation
+    permission: deluxetags.tag.astel
+  Kishido Temma:
+    order: 63
+    tag: '&8[&eKi&fshimen&8]&r'
+    description: Holostars 2nd Generation
+    permission: deluxetags.tag.temma
+  Yukoku Roberu:
+    order: 64
+    tag: '&8[&6Proud Parent&8]&r'
+    description: Holostars 2nd Generation
+    permission: deluxetags.tag.roberu
+  Kageyama Shien:
+    order: 65
+    tag: '&8[&7Shien&8gu&5mi&8]&r'
+    description: Holostars 3rd Generation
+    permission: deluxetags.tag.shien
+  Aragami Oga:
+    order: 66
+    tag: '&8[&2OMAE&8san&8]&r'
+    description: Holostars 3rd Generation
+    permission: deluxetags.tag.oga
+  A-chan:
+    order: 67
+    tag: '&8[&9A-chan&8]&r'
+    description: hololive Staff
+    permission: deluxetags.tag.achan
+  JenMa:
+    order: 68
+    tag: '&8[&eJen&dMa&8]&r'
+    description: hololive Staff
+    permission: deluxetags.tag.jenma
+  EnMa:
+    order: 69
+    tag: '&8[&8En&4Ma&8]&r'
+    description: hololive Staff
+    permission: deluxetags.tag.enma
+  Amano Pikamee:
+    order: 70
+    tag: '&8[&ePikarmy&8]&r'
+    description: VOMS Project
+    permission: deluxetags.tag.pikamee
+  Hikasa Tomoshika:
+    order: 71
+    tag: '&8[&cZa&eko&8]&r'
+    description: VOMS Project
+    permission: deluxetags.tag.tomo
+  Jitomi Monoe:
+    order: 72
+    tag: '&8[&9Jito&7min&8]&r'
+    description: VOMS Project (RIP...)
+    permission: deluxetags.tag.monoe
+  Ange Katrina:
+    order: 73
+    tag: '&8[&cFuru&7chin&8]&r'
+    description: Nijisanji
+    permission: deluxetags.tag.ange
+  Suzuhara Lulu:
+    order: 74
+    tag: '&8[&5Lulu&dLove&8]&r'
+    description: Nijisanji
+    permission: deluxetags.tag.lulu
+  Inui Toko:
+    order: 75
+    tag: '&8[&4Min&8na&8]&r'
+    description: Nijisanji
+    permission: deluxetags.tag.Inui_Toko
+  Ars Almal:
+    order: 76
+    tag: '#7FD6E2[Toge#F5F1F3maru]&r'
+    description: Nijisanji
+    permission: deluxetags.tag.Ars_Almal
+  Sukoya Kana:
+    order: 77
+    tag: '&8[&dKan&fja&8]&r'
+    description: Nijisanji
+    permission: deluxetags.tag.Sukoya_Kana
+  Tsukino Mito:
+    order: 78
+    tag: '&8[&4MitoLove&8]&r'
+    description: Nijisanji
+    permission: deluxetags.tag.Tsukino_Mito
+  Nishizono Chigusa:
+    order: 79
+    tag: '#3b88f5[Chi#de1077gu#e4e7f0nya]&r'
+    description: Nijisanji
+    permission: deluxetags.tag.Nishizono_Chigusa
+  Hayama Marin:
+    order: 80
+    tag: '&8[&9Chou&aChoumin&8]&r'
+    description: Nijisanji
+    permission: deluxetags.tag.Hayama_Marin
+  Kurusu Natsume:
+    order: 81
+    tag: '&8[&4NatsuMate&8]&r'
+    description: Nijisanji
+    permission: deluxetags.tag.kurusanatsume
+  Hana Macchia:
+    order: 82
+    tag: '&8[&cNiji&eSenja&8]&r'
+    description: NijisanjiID
+    permission: deluxetags.tag.hanamacchia
+  Finana Ryugu:
+    order: 83
+    tag: '&8[&a&3Ryu&dguards&8]&r'
+    description: Nijisanji EN
+    permission: deluxetags.tag.finana
+  Pomu Rainpuff:
+    order: 84
+    tag: '&8[&ePomu&3dachi&8]&r'
+    description: Nijisanji EN
+    permission: deluxetags.tag.pomu
+  Elira Pendora:
+    order: 85
+    tag: '&8[&9Fam&5Elira&8]&r'
+    description: Nijisanji EN
+    permission: deluxetags.tag.elira
+  Rosemi Lovelock:
+    order: 86
+    tag: '#963947[#f0b7beRosebuds#963947]&r'
+    description: Nijisanji EN wave 2
+    permission: deluxetags.tag.Rosemi_Lovelock
+  Petra Gurin:
+    order: 87
+    tag: '&8[&8Pen&fTomo&8]&r'
+    description: Nijisanji EN wave 2
+    permission: deluxetags.tag.Petra_Gurin
+  Selen Tatsuki:
+    order: 88
+    tag: '&8[#7E4EACDrag&8oons]&r'
+    description: Nijisanji EN wave 2
+    permission: deluxetags.tag.Selen_Tatsuki
+  Nina Kosaka:
+    order: 89
+    tag: '&8[&fHon&8ey&8]&r'
+    description: Nijisanji EN wave 3
+    permission: deluxetags.tag.Nina_Kosaka
+  Millie Parfait:
+    order: 90
+    tag: '&8[&8Fa&6Millie&8]&r'
+    description: Nijisanji EN wave 3
+    permission: deluxetags.tag.Millie_Parfait
+  Enna Alouette:
+    order: 91
+    tag: '&8[&fAllou&bpeep&8]&r'
+    description: Nijisanji EN wave 3
+    permission: deluxetags.tag.Enna_Alouette
+  Reimu Endou:
+    order: 92
+    tag: '&8[&8Phan&ftomo&8]&r'
+    description: Nijisanji EN wave 3
+    permission: deluxetags.tag.Reimu_Endou
+  Vox Akuma:
+    order: 93
+    tag: '#960018[Kindred]&r'
+    description: Nijisanji EN wave 4
+    permission: deluxetags.tag.Vox_Akuma
+  Luca Kaneshiro:
+    order: 94
+    tag: '#D4AF37[Lucubs]&r'
+    description: Nijisanji EN wave 4
+    permission: deluxetags.tag.Luca_Kaneshiro
+  Shu Yamino:
+    order: 95
+    tag: '#A660A7[Yaminions]&r'
+    description: Nijisanji EN wave 4
+    permission: deluxetags.tag.Shu_Yamino
+  Ike Eveland:
+    order: 96
+    tag: '#348EC7[Quilldren]&r'
+    description: Nijisanji EN wave 4
+    permission: deluxetags.tag.Ike_Eveland
+  Mysta Rias:
+    order: 97
+    tag: '#C3552B[Mystakes]&r'
+    description: Nijisanji EN wave 4
+    permission: deluxetags.tag.Mysta_Rias
+  Fulgar Ovid:
+    order: 98
+    tag: '&8[Comfydant]&r'
+    description: Nijisanji EN wave 5
+    permission: deluxetags.tag.Fulgar_Ovid
+  Sonny Brisko:
+    order: 99
+    tag: '&e[Briskadet]&r'
+    description: Nijisanji EN wave 5
+    permission: deluxetags.tag.Sonny_Brisko
+  Uki Violeta:
+    order: 100
+    tag: '&5[Stargazer]&r'
+    description: Nijisanji EN wave 5
+    permission: deluxetags.tag.Uki_Violeta
+  Alban Knox:
+    order: 101
+    tag: '#8A3500[Takaradachi]&r'
+    description: Nijisanji EN wave 5
+    permission: deluxetags.tag.Alban_Knox
+  Yugo Asuma:
+    order: 102
+    tag: '&1[YUGUYS]&r'
+    description: Nijisanji EN wave 5
+    permission: deluxetags.tag.Yugo_Asuma
+  Mika Melatika:
+    order: 103
+    tag: '#FDABFD[Melati #FEFDFFCult]&r'
+    description: Nijisanji ID
+    permission: deluxetags.tag.Mika_Melatika
+  Hoshifuri Iku:
+    order: 104
+    tag: '&8[&dIku&9min&8]&r'
+    description: PRISM Project 1st Generation
+    permission: deluxetags.tag.iku
+  Tokimori Aoi:
+    order: 105
+    tag: '&8[&9Ti&8me&fkeeper&8]&r'
+    description: PRISM Project 1st Generation
+    permission: deluxetags.tag.aoi
+  Ibuki Meno:
+    order: 106
+    tag: '&8[&bOta&egon&8]&r'
+    description: PRISM Project 1st Generation
+    permission: deluxetags.tag.meno
+  Kamishiro Rita:
+    order: 107
+    tag: '&8[&7RK&9angel&8]&r'
+    description: PRISM Project 2nd Generation
+    permission: deluxetags.tag.rita
+  Araka Luto:
+    order: 108
+    tag: '&8[&cKalu&4tist&8]&r'
+    description: PRISM Project 2nd Generation
+    permission: deluxetags.tag.luto
+  Nyatasha Nyanners:
+    order: 109
+    tag: '&8[&dNyander&9thal&8]&r'
+    description: VShojo
+    permission: deluxetags.tag.nyannersold
+  Nyatasha Nyanners (new):
+    order: 110
+    tag: '&8[&dNya&5colyte&8]&r'
+    description: VShojo
+    permission: deluxetags.tag.nyannersnew
+  Apricot (Froot):
+    order: 111
+    tag: '&8[&3Froot&acake&8]&r'
+    description: VShojo
+    permission: deluxetags.tag.froot
+  Hime Hajime:
+    order: 112
+    tag: '&8[&eHime &9Harem&8]&r'
+    description: VShojo
+    permission: deluxetags.tag.hime
+  Zentreya:
+    order: 113
+    tag: '&8[&4Red &cKnight&8]&r'
+    description: VShojo
+    permission: deluxetags.tag.zentreya
+  Ironmouse:
+    order: 114
+    tag: '&8[&dPrecious &5Family&8]&r'
+    description: VShojo
+    permission: deluxetags.tag.ironmouse
+  Silvervale:
+    order: 115
+    tag: '&8[&bPetal &dPal&8]&r'
+    description: VShojo
+    permission: deluxetags.tag.silvervale
+  Projekt Melody:
+    order: 116
+    tag: '&8[&5Science &1Team&8]&r'
+    description: VShojo
+    permission: deluxetags.tag.melody
+  Veibae:
+    order: 117
+    tag: '&8[&4Veir&fgins&8]&r'
+    description: VShojo
+    permission: deluxetags.tag.veibae
+  Pipkin Pippa:
+    order: 118
+    tag: '&8[&dCapippalist&8]&r'
+    description: Phase-CONNECT
+    permission: deluxetags.tag.here
+  Ashelia Rinkou:
+    order: 119
+    tag: '&8[&eAshe&dleague&8]&r'
+    description: Phase-CONNECT
+    permission: deluxetags.tag.ashe
+  Utatane Nasa:
+    order: 120
+    tag: '&8[&5Utata&enation&8]&r'
+    description: Phase-CONNECT
+    permission: deluxetags.tag.nasa
+  Tenma Maemi:
+    order: 121
+    tag: '&8[&dKanpai&7niki&8]&r'
+    description: Phase-CONNECT
+    permission: deluxetags.tag.tenma
+  Hakushika Iori:
+    order: 122
+    tag: '&8[&bIori&fHerd&8]&r'
+    description: Phase-CONNECT
+    permission: deluxetags.tag.iori
+  Fujikura Uruka:
+    order: 123
+    tag: '&8[&9Urufu&bgang&8]&r'
+    description: Phase-CONNECT
+    permission: deluxetags.tag.uruka
+  Shisui Michiru:
+    order: 124
+    tag: '&8[&9Michi&5rudoren&8]&r'
+    description: Phase-CONNECT
+    permission: deluxetags.tag.michiru
+  Kaneko Lumi:
+    order: 125
+    tag: '&e[Lumi&fNation]&r'
+    description: Phase-CONNECT
+    permission: deluxetags.tag.kanekolumi
+  Amaris Yuri:
+    order: 126
+    tag: '&7[Hostage]&r'
+    description: Phase-CONNECT
+    permission: deluxetags.tag.amarisyuri
+  Amiya Aranha:
+    order: 127
+    tag: '#D0CEFB[Bucko]&r'
+    description: Tsunderia
+    permission: deluxetags.tag.amiya
+  Hizuki Miu:
+    order: 128
+    tag: '&8[&aMiutomo&8]&r'
+    description: WACTOR
+    permission: deluxetags.tag.Hizuki_Miu
+  Lika Rii:
+    order: 129
+    tag: '#e6aef2[Lyrica]&r'
+    description: Indie
+    permission: deluxetags.tag.Kuriri
+  Hyacca Juno:
+    order: 130
+    tag: '&8[&6Emono-Chan&8]&r'
+    description: Planetarium Project
+    permission: deluxetags.tag.Hyacca_Juno
+  Hatoba Tsugu:
+    order: 131
+    tag: '&8[&8Tsugu♥]&r'
+    description: Indie
+    permission: deluxetags.tag.tsugu
+  Akira (@ryonaxlove):
+    order: 132
+    tag: '&8[&5Ryona Enthusiast&8]&r'
+    description: Indie
+    permission: deluxetags.tag.akira
+  Hecatia:
+    order: 133
+    tag: '&8[&5Cha&dttors&8]&r'
+    description: Indie
+    permission: deluxetags.tag.hacatia
+  Majo Carol:
+    order: 134
+    tag: '&8[&2Groomer&8]&r'
+    description: Indie (certified 4chan ORIGINAL)
+    permission: deluxetags.tag.carol
+  Koopa Fortuna:
+    order: 135
+    tag: '&8[&2Troopa&8]&r'
+    description: Indie (certified 4chan ORIGINAL)
+    permission: deluxetags.tag.koopa
+  Kumagai Chisato (Beatani):
+    order: 136
+    tag: '&8[&7D&2a&7d&8]&r'
+    description: Indie (certified 4chan ORIGINAL)
+    permission: deluxetags.tag.beatani
+  鹿乃 Kano Channel:
+    order: 137
+    tag: '&8[&bKanon&8]&r'
+    description: Indie (certified 4chan ORIGINAL)
+    permission: deluxetags.tag.kano
+  Kiyomi Pyon-Pyon:
+    order: 138
+    tag: '&8[&7Champyon&8]&r'
+    description: Indie (certified 4chan ORIGINAL)
+    permission: deluxetags.tag.Kiyomi
+  Delutaya:
+    order: 139
+    tag: '&8[&aΔ&8]&r'
+    description: Indie
+    permission: deluxetags.tag.Delutaya
+  Kamiko Kana:
+    order: 140
+    tag: '&8[&cFl&fea&8]&r'
+    description: Indie
+    permission: deluxetags.tag.kamiko
+  Nadeshiko:
+    order: 141
+    tag: '&8[&dBadger&8]&r'
+    description: Indie
+    permission: deluxetags.tag.Nadeshiko
+  Hanaka Kotone:
+    order: 142
+    tag: '&8[&fRacing&6Team&8]&r'
+    description: Indie
+    permission: deluxetags.tag.Hanaka_Kotone
+  Anny:
+    order: 143
+    tag: '&8[&6Only&eFox&8]&r'
+    description: Indie
+    permission: deluxetags.tag.Anny
+  Koragi:
+    order: 144
+    tag: '&8[&6Kemono&fDachi&8]&r'
+    description: Indie
+    permission: deluxetags.tag.Koragi
+  Lumi:
+    order: 145
+    tag: '&8[&1A&fwoo &1P&fack&8]&r'
+    description: Indie
+    permission: deluxetags.tag.Lumi
+  Nina Saotome:
+    order: 146
+    tag: '&8[&dNinaBro&8]&r'
+    description: Indie
+    permission: deluxetags.tag.Nina_Saotome
+  Lily Hops:
+    order: 147
+    tag: '#319F51[Big #23A5E7Bro]&r'
+    description: Indie
+    permission: deluxetags.tag.Lily_Hops
+  Snuffy:
+    order: 148
+    tag: '&8[&8Trash&eClan&8]&r'
+    description: Indie
+    permission: deluxetags.tag.Snuffy
+  Athena Bambina:
+    order: 149
+    tag: '&8[&dDeerGang&8]&r'
+    description: Indie
+    permission: deluxetags.tag.Athena
+  Isla Coleman:
+    order: 150
+    tag: '#B7DDF0[Cole #FFE3B1Knight]&r'
+    description: Project Kawaii
+    permission: deluxetags.tag.IslaColeman
+  Namiji Freesia:
+    order: 151
+    tag: '#5EC4F9[Hero#F5D574ji]&r'
+    description: Production Kawaii
+    permission: deluxetags.tag.NamijiFreesia
+  Nora Cat:
+    order: 152
+    tag: '#f5351c[#423c42Nezumi#ffba4a-#fefcf7san#f5351c]&r'
+    description: Indie
+    permission: deluxetags.tag.NoraCat
+  Maru Nanamona:
+    order: 153
+    tag: '#b6958c[Tomo#dfc6a8bokujo]&r'
+    description: VERSE
+    permission: deluxetags.tag.MaruNanamona
+  Nerine:
+    order: 154
+    tag: '#C1BDBD[Nerine Enjoyer]&r'
+    description: Indie
+    permission: deluxetags.tag.Nerine
+  Kitanya Nyanta:
+    order: 155
+    tag: '#BFE0F3[Jel#EEB87Dly#9FB658bud]&r'
+    description: Indie
+    permission: deluxetags.tag.Nyanta
+  Juniper Actias:
+    order: 156
+    tag: '&7[Lunapostle]&r'
+    description: Indie
+    permission: deluxetags.tag.Juniper
+  SNEED:
+    order: 157
+    tag: '&8[&4&lSneed&r&8]&r'
+    description: Sneedposter (DO NOT TRUST)
+    permission: deluxetags.tag.sneed
+  Annoying Orange:
+    order: 158
+    tag: '&8[&6Orange &lCHAD&r&8]&r'
+    description: Annoying Orange
+    permission: deluxetags.tag.joke
+  Saddam Hussein:
+    order: 159
+    tag: '#C2B280[Dune #637d96Goon]&r'
+    description: Saddam
+    permission: deluxetags.tag.joke
+  UOH:
+    order: 160
+    tag: '&k[&r&6&lUOHHHH&r&k]&r'
+    description: UOOOOOHHHH cute AND funny
+    permission: deluxetags.tag.joke
+  ogey:
+    order: 161
+    tag: '&bogey&r'
+    description: ogey
+    permission: deluxetags.tag.joke
+  rrat:
+    order: 162
+    tag: '&brrat&r'
+    description: rrat
+    permission: deluxetags.tag.joke
+  Touhou:
+    order: 163
+    tag: '&8[&c2hu&8]&r'
+    description: i love touhou :)
+    permission: deluxetags.tag.2hu
+  '[redacted]':
+    order: 164
+    tag: '&8&k[]&r&4Ｈｉｔｏｍｉ Ｃｈｒｉｓ－ｓｕｋｉ&8&k[]&r'
+    description: '&f'
+    permission: deluxetags.tag.[redacted]
+  Tag:
+    order: 165
+    tag: '#000000deluxetags_tag&r'
+    description: WHORE
+    permission: deluxetags.tag.joke
