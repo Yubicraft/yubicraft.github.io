@@ -8,6 +8,7 @@ const selectoshi = document.getElementById("selectoshi")
 const copybutton = document.getElementById("copybutton")
 const filterinput = document.getElementById("filter")
 const span = document.getElementById("result")
+const resultsfound = document.getElementById("resultsfound")
 const startScript = async () => {
     data = await fetch("info.json")
         .then(response => response.json())
@@ -16,22 +17,16 @@ const startScript = async () => {
 startScript()
 
 const handleData = () => {
-    console.log(data)
     filtered = JSON.parse(JSON.stringify(data))
-    console.log(filter)
+    let sum = 0
     filtered.forEach(s =>  //iterate data
     {
-        s.categories.forEach((t) => //iterate subs
-        {
-            t.oshis = t.oshis.filter(oshi => oshi.realname.toUpperCase().includes(filter.toUpperCase()))
-        }
-        )
+        s.categories.forEach((t) => {t.oshis = t.oshis.filter(oshi => oshi.realname.toUpperCase().includes(filter.toUpperCase()));sum += t.oshis.length})
         s.categories = s.categories.filter(category => category.oshis.length > 0)
     }
-
     )
     filtered = filtered.filter(root => root.categories.length > 0)
-    console.log(filtered)
+    resultsfound.innerText = `${sum} oshis found`
     selectroot.innerHTML = '<option value="" selected disabled>Select</option>'
     filtered.forEach(e => {
         selectroot.innerHTML += `<option value="${e.root}">${e.root}</option>`
