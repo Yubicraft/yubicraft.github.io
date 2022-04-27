@@ -1,7 +1,22 @@
 .banner-image{
-    aspect-ratio: 8 / 1; 
-    width: 100%;
+    width: 60%;
 border-radius: 15px;
 border:1px solid black
 
+}
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end > *:not(:first-child) {
+    margin-left: 20px !important;
+    border-radius: 5px !important;
+}
+.container{
+    border-radius: 20px;
+    background-color: #f4f4f4;
+}
+body{
+    background-image: url(./dirt.jpg);
 }
