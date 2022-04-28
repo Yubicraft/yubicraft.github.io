@@ -510,423 +510,428 @@ deluxetags:
     tag: '&8[&4NatsuMate&8]&r'
     description: Nijisanji
     permission: deluxetags.tag.kurusanatsume
-  Hana Macchia:
+  Sorahoshi Kirame:
     order: 82
+    tag: '#44DDF4[Kirameito]&r'
+    description: Nijisanji
+    permission: deluxetags.tag.sorahoshikirame
+  Hana Macchia:
+    order: 83
     tag: '&8[&cNiji&eSenja&8]&r'
     description: Nijisanji ID
     permission: deluxetags.tag.hanamacchia
   Finana Ryugu:
-    order: 83
+    order: 84
     tag: '&8[&a&3Ryu&dguards&8]&r'
     description: Nijisanji EN
     permission: deluxetags.tag.finana
   Pomu Rainpuff:
-    order: 84
+    order: 85
     tag: '&8[&ePomu&3dachi&8]&r'
     description: Nijisanji EN
     permission: deluxetags.tag.pomu
   Elira Pendora:
-    order: 85
+    order: 86
     tag: '&8[&9Fam&5Elira&8]&r'
     description: Nijisanji EN
     permission: deluxetags.tag.elira
   Rosemi Lovelock:
-    order: 86
+    order: 87
     tag: '#963947[#f0b7beRosebuds#963947]&r'
     description: Nijisanji EN wave 2
     permission: deluxetags.tag.Rosemi_Lovelock
   Petra Gurin:
-    order: 87
+    order: 88
     tag: '&8[&8Pen&fTomo&8]&r'
     description: Nijisanji EN wave 2
     permission: deluxetags.tag.Petra_Gurin
   Selen Tatsuki:
-    order: 88
+    order: 89
     tag: '&8[#7E4EACDrag&8oons]&r'
     description: Nijisanji EN wave 2
     permission: deluxetags.tag.Selen_Tatsuki
   Nina Kosaka:
-    order: 89
+    order: 90
     tag: '&8[&fHon&8ey&8]&r'
     description: Nijisanji EN wave 3
     permission: deluxetags.tag.Nina_Kosaka
   Millie Parfait:
-    order: 90
+    order: 91
     tag: '&8[&8Fa&6Millie&8]&r'
     description: Nijisanji EN wave 3
     permission: deluxetags.tag.Millie_Parfait
   Enna Alouette:
-    order: 91
+    order: 92
     tag: '&8[&fAllou&bpeep&8]&r'
     description: Nijisanji EN wave 3
     permission: deluxetags.tag.Enna_Alouette
   Reimu Endou:
-    order: 92
+    order: 93
     tag: '&8[&8Phan&ftomo&8]&r'
     description: Nijisanji EN wave 3
     permission: deluxetags.tag.Reimu_Endou
   Vox Akuma:
-    order: 93
+    order: 94
     tag: '#960018[Kindred]&r'
     description: Nijisanji EN wave 4
     permission: deluxetags.tag.Vox_Akuma
   Luca Kaneshiro:
-    order: 94
+    order: 95
     tag: '#D4AF37[Lucubs]&r'
     description: Nijisanji EN wave 4
     permission: deluxetags.tag.Luca_Kaneshiro
   Shu Yamino:
-    order: 95
+    order: 96
     tag: '#A660A7[Yaminions]&r'
     description: Nijisanji EN wave 4
     permission: deluxetags.tag.Shu_Yamino
   Ike Eveland:
-    order: 96
+    order: 97
     tag: '#348EC7[Quilldren]&r'
     description: Nijisanji EN wave 4
     permission: deluxetags.tag.Ike_Eveland
   Mysta Rias:
-    order: 97
+    order: 98
     tag: '#C3552B[Mystakes]&r'
     description: Nijisanji EN wave 4
     permission: deluxetags.tag.Mysta_Rias
   Fulgar Ovid:
-    order: 98
+    order: 99
     tag: '&8[Comfydant]&r'
     description: Nijisanji EN wave 5
     permission: deluxetags.tag.Fulgar_Ovid
   Sonny Brisko:
-    order: 99
+    order: 100
     tag: '&e[Briskadet]&r'
     description: Nijisanji EN wave 5
     permission: deluxetags.tag.Sonny_Brisko
   Uki Violeta:
-    order: 100
+    order: 101
     tag: '&5[Stargazer]&r'
     description: Nijisanji EN wave 5
     permission: deluxetags.tag.Uki_Violeta
   Alban Knox:
-    order: 101
+    order: 102
     tag: '#8A3500[Takaradachi]&r'
     description: Nijisanji EN wave 5
     permission: deluxetags.tag.Alban_Knox
   Yugo Asuma:
-    order: 102
+    order: 103
     tag: '&1[YUGUYS]&r'
     description: Nijisanji EN wave 5
     permission: deluxetags.tag.Yugo_Asuma
   Mika Melatika:
-    order: 103
+    order: 104
     tag: '#FDABFD[Melati #FEFDFFCult]&r'
     description: Nijisanji ID
     permission: deluxetags.tag.Mika_Melatika
   Hoshifuri Iku:
-    order: 104
+    order: 105
     tag: '&8[&dIku&9min&8]&r'
     description: PRISM Project 1st Generation
     permission: deluxetags.tag.iku
   Tokimori Aoi:
-    order: 105
+    order: 106
     tag: '&8[&9Ti&8me&fkeeper&8]&r'
     description: PRISM Project 1st Generation
     permission: deluxetags.tag.aoi
   Ibuki Meno:
-    order: 106
+    order: 107
     tag: '&8[&bOta&egon&8]&r'
     description: PRISM Project 1st Generation
     permission: deluxetags.tag.meno
   Kamishiro Rita:
-    order: 107
+    order: 108
     tag: '&8[&7RK&9angel&8]&r'
     description: PRISM Project 2nd Generation
     permission: deluxetags.tag.rita
   Araka Luto:
-    order: 108
+    order: 109
     tag: '&8[&cKalu&4tist&8]&r'
     description: PRISM Project 2nd Generation
     permission: deluxetags.tag.luto
   Nyatasha Nyanners:
-    order: 109
+    order: 110
     tag: '&8[&dNyander&9thal&8]&r'
     description: VShojo
     permission: deluxetags.tag.nyannersold
   Nyatasha Nyanners (new):
-    order: 110
+    order: 111
     tag: '&8[&dNya&5colyte&8]&r'
     description: VShojo
     permission: deluxetags.tag.nyannersnew
   Apricot (Froot):
-    order: 111
+    order: 112
     tag: '&8[&3Froot&acake&8]&r'
     description: VShojo
     permission: deluxetags.tag.froot
   Hime Hajime:
-    order: 112
+    order: 113
     tag: '&8[&eHime &9Harem&8]&r'
     description: VShojo
     permission: deluxetags.tag.hime
   Zentreya:
-    order: 113
+    order: 114
     tag: '&8[&4Red &cKnight&8]&r'
     description: VShojo
     permission: deluxetags.tag.zentreya
   Ironmouse:
-    order: 114
+    order: 115
     tag: '&8[&dPrecious &5Family&8]&r'
     description: VShojo
     permission: deluxetags.tag.ironmouse
   Silvervale:
-    order: 115
+    order: 116
     tag: '&8[&bPetal &dPal&8]&r'
     description: VShojo
     permission: deluxetags.tag.silvervale
   Projekt Melody:
-    order: 116
+    order: 117
     tag: '&8[&5Science &1Team&8]&r'
     description: VShojo
     permission: deluxetags.tag.melody
   Veibae:
-    order: 117
+    order: 118
     tag: '&8[&4Veir&fgins&8]&r'
     description: VShojo
     permission: deluxetags.tag.veibae
   Pipkin Pippa:
-    order: 118
+    order: 119
     tag: '&8[&dCapippalist&8]&r'
     description: Phase-CONNECT
     permission: deluxetags.tag.here
   Ashelia Rinkou:
-    order: 119
+    order: 120
     tag: '&8[&eAshe&dleague&8]&r'
     description: Phase-CONNECT
     permission: deluxetags.tag.ashe
   Utatane Nasa:
-    order: 120
+    order: 121
     tag: '&8[&5Utata&enation&8]&r'
     description: Phase-CONNECT
     permission: deluxetags.tag.nasa
   Tenma Maemi:
-    order: 121
+    order: 122
     tag: '&8[&dKanpai&7niki&8]&r'
     description: Phase-CONNECT
     permission: deluxetags.tag.tenma
   Hakushika Iori:
-    order: 122
+    order: 123
     tag: '&8[&bIori&fHerd&8]&r'
     description: Phase-CONNECT
     permission: deluxetags.tag.iori
   Fujikura Uruka:
-    order: 123
+    order: 124
     tag: '&8[&9Urufu&bgang&8]&r'
     description: Phase-CONNECT
     permission: deluxetags.tag.uruka
   Shisui Michiru:
-    order: 124
+    order: 125
     tag: '&8[&9Michi&5rudoren&8]&r'
     description: Phase-CONNECT
     permission: deluxetags.tag.michiru
   Kaneko Lumi:
-    order: 125
+    order: 126
     tag: '&e[Lumi&fNation]&r'
     description: Phase-CONNECT
     permission: deluxetags.tag.kanekolumi
   Amaris Yuri:
-    order: 126
+    order: 127
     tag: '&7[Hostage]&r'
     description: Phase-CONNECT
     permission: deluxetags.tag.amarisyuri
   Amiya Aranha:
-    order: 127
+    order: 128
     tag: '#D0CEFB[Bucko]&r'
     description: Tsunderia
     permission: deluxetags.tag.amiya
   Hizuki Miu:
-    order: 128
+    order: 129
     tag: '&8[&aMiutomo&8]&r'
     description: WACTOR
     permission: deluxetags.tag.Hizuki_Miu
   Lika Rii:
-    order: 129
+    order: 130
     tag: '#e6aef2[Lyrica]&r'
     description: Indie
     permission: deluxetags.tag.Kuriri
   Hyacca Juno:
-    order: 130
+    order: 131
     tag: '&8[&6Emono-Chan&8]&r'
     description: Planetarium Project
     permission: deluxetags.tag.Hyacca_Juno
   Hatoba Tsugu:
-    order: 131
+    order: 132
     tag: '&8[&8Tsugu♥]&r'
     description: Indie
     permission: deluxetags.tag.tsugu
   Akira (@ryonaxlove):
-    order: 132
+    order: 133
     tag: '&8[&5Ryona Enthusiast&8]&r'
     description: Indie
     permission: deluxetags.tag.akira
   Hecatia:
-    order: 133
+    order: 134
     tag: '&8[&5Cha&dttors&8]&r'
     description: Indie
     permission: deluxetags.tag.hacatia
   Majo Carol:
-    order: 134
+    order: 135
     tag: '&8[&2Groomer&8]&r'
     description: Indie (certified 4chan ORIGINAL)
     permission: deluxetags.tag.carol
   Koopa Fortuna:
-    order: 135
+    order: 136
     tag: '&8[&2Troopa&8]&r'
     description: Indie (certified 4chan ORIGINAL)
     permission: deluxetags.tag.koopa
   Kumagai Chisato (Beatani):
-    order: 136
+    order: 137
     tag: '&8[&7D&2a&7d&8]&r'
     description: Indie (certified 4chan ORIGINAL)
     permission: deluxetags.tag.beatani
   鹿乃 Kano Channel:
-    order: 137
+    order: 138
     tag: '&8[&bKanon&8]&r'
     description: Indie (certified 4chan ORIGINAL)
     permission: deluxetags.tag.kano
   Kiyomi Pyon-Pyon:
-    order: 138
+    order: 139
     tag: '&8[&7Champyon&8]&r'
     description: Indie (certified 4chan ORIGINAL)
     permission: deluxetags.tag.Kiyomi
   Delutaya:
-    order: 139
+    order: 140
     tag: '&8[&aΔ&8]&r'
     description: Indie
     permission: deluxetags.tag.Delutaya
   Kamiko Kana:
-    order: 140
+    order: 141
     tag: '&8[&cFl&fea&8]&r'
     description: Indie
     permission: deluxetags.tag.kamiko
   Nadeshiko:
-    order: 141
-    tag: '&8[&dBadger&8]&r'
+    order: 142
+    tag: '#6b4e62[Dark#f9eef2ling]&r'
     description: Indie
     permission: deluxetags.tag.Nadeshiko
   Hanaka Kotone:
-    order: 142
+    order: 143
     tag: '&8[&fRacing&6Team&8]&r'
     description: Indie
     permission: deluxetags.tag.Hanaka_Kotone
   Anny:
-    order: 143
+    order: 144
     tag: '&8[&6Only&eFox&8]&r'
     description: Indie
     permission: deluxetags.tag.Anny
   Koragi:
-    order: 144
+    order: 145
     tag: '&8[&6Kemono&fDachi&8]&r'
     description: Indie
     permission: deluxetags.tag.Koragi
   Lumi:
-    order: 145
+    order: 146
     tag: '&8[&1A&fwoo &1P&fack&8]&r'
     description: Indie
     permission: deluxetags.tag.Lumi
   Nina Saotome:
-    order: 146
+    order: 147
     tag: '&8[&dNinaBro&8]&r'
     description: Indie
     permission: deluxetags.tag.Nina_Saotome
   Lily Hops:
-    order: 147
+    order: 148
     tag: '#319F51[Big #23A5E7Bro]&r'
     description: Indie
     permission: deluxetags.tag.Lily_Hops
   Snuffy:
-    order: 148
+    order: 149
     tag: '&8[&8Trash&eClan&8]&r'
     description: Indie
     permission: deluxetags.tag.Snuffy
   Athena Bambina:
-    order: 149
+    order: 150
     tag: '&8[&dDeerGang&8]&r'
     description: Indie
     permission: deluxetags.tag.Athena
   Isla Coleman:
-    order: 150
+    order: 151
     tag: '#B7DDF0[Cole #FFE3B1Knight]&r'
     description: Project Kawaii
     permission: deluxetags.tag.IslaColeman
   Namiji Freesia:
-    order: 151
+    order: 152
     tag: '#5EC4F9[Hero#F5D574ji]&r'
     description: Production Kawaii
     permission: deluxetags.tag.NamijiFreesia
   Nora Cat:
-    order: 152
+    order: 153
     tag: '#f5351c[#423c42Nezumi#ffba4a-#fefcf7san#f5351c]&r'
     description: Indie
     permission: deluxetags.tag.NoraCat
   Maru Nanamona:
-    order: 153
+    order: 154
     tag: '#b6958c[Tomo#dfc6a8bokujo]&r'
     description: VERSE
     permission: deluxetags.tag.MaruNanamona
   Nerine:
-    order: 154
+    order: 155
     tag: '#C1BDBD[Nerine Enjoyer]&r'
     description: Indie
     permission: deluxetags.tag.Nerine
   Kitanya Nyanta:
-    order: 155
+    order: 156
     tag: '#BFE0F3[Jel#EEB87Dly#9FB658bud]&r'
     description: Indie
     permission: deluxetags.tag.Nyanta
   Juniper Actias:
-    order: 156
+    order: 157
     tag: '&7[Lunapostle]&r'
     description: Indie
     permission: deluxetags.tag.Juniper
   SNEED:
-    order: 157
+    order: 158
     tag: '&8[&4&lSneed&r&8]&r'
     description: Sneedposter (DO NOT TRUST)
     permission: deluxetags.tag.sneed
   Annoying Orange:
-    order: 158
+    order: 159
     tag: '&8[&6Orange &lCHAD&r&8]&r'
     description: Annoying Orange
     permission: deluxetags.tag.joke
   Saddam Hussein:
-    order: 159
+    order: 160
     tag: '#C2B280[Dune #637d96Goon]&r'
     description: Saddam
     permission: deluxetags.tag.joke
   UOH:
-    order: 160
+    order: 161
     tag: '&k[&r&6&lUOHHHH&r&k]&r'
     description: UOOOOOHHHH cute AND funny
     permission: deluxetags.tag.joke
   ogey:
-    order: 161
+    order: 162
     tag: '&bogey&r'
     description: ogey
     permission: deluxetags.tag.joke
   rrat:
-    order: 162
+    order: 163
     tag: '&brrat&r'
     description: rrat
     permission: deluxetags.tag.joke
   Touhou:
-    order: 163
+    order: 164
     tag: '&8[&c2hu&8]&r'
     description: i love touhou :)
     permission: deluxetags.tag.2hu
   '[redacted]':
-    order: 164
+    order: 165
     tag: '&8&k[]&r&4Ｈｉｔｏｍｉ Ｃｈｒｉｓ－ｓｕｋｉ&8&k[]&r'
     description: '&f'
     permission: deluxetags.tag.[redacted]
   Tag:
-    order: 165
+    order: 166
     tag: '#000000deluxetags_tag&r'
     description: WHORE
     permission: deluxetags.tag.joke

@@ -425,6 +425,10 @@
                     {
                         "commandname": "KurusuNatsume",
                         "realname": "Kurusu Natsume"
+                    },
+                    {
+                        "commandname": "SorahoshiKirame",
+                        "realname": "Sorahoshi Kirame"
                     }
                 ]
             },
