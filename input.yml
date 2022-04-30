@@ -800,138 +800,143 @@ deluxetags:
     tag: '&8[&7Champyon&8]&r'
     description: Indie (certified 4chan ORIGINAL)
     permission: deluxetags.tag.Kiyomi
-  Delutaya:
+  Mari Mari:
     order: 140
+    tag: '#ffbe69[Fin#4f84d9cel]&r'
+    description: Indie (certified 4chan ORIGINAL)
+    permission: deluxetags.tag.Mari
+  Delutaya:
+    order: 141
     tag: '&8[&aΔ&8]&r'
     description: Indie
     permission: deluxetags.tag.Delutaya
   Kamiko Kana:
-    order: 141
+    order: 142
     tag: '&8[&cFl&fea&8]&r'
     description: Indie
     permission: deluxetags.tag.kamiko
   Nadeshiko:
-    order: 142
+    order: 143
     tag: '#6b4e62[Dark#f9eef2ling]&r'
     description: Indie
     permission: deluxetags.tag.Nadeshiko
   Hanaka Kotone:
-    order: 143
+    order: 144
     tag: '&8[&fRacing&6Team&8]&r'
     description: Indie
     permission: deluxetags.tag.Hanaka_Kotone
   Anny:
-    order: 144
+    order: 145
     tag: '&8[&6Only&eFox&8]&r'
     description: Indie
     permission: deluxetags.tag.Anny
   Koragi:
-    order: 145
+    order: 146
     tag: '&8[&6Kemono&fDachi&8]&r'
     description: Indie
     permission: deluxetags.tag.Koragi
   Lumi:
-    order: 146
+    order: 147
     tag: '&8[&1A&fwoo &1P&fack&8]&r'
     description: Indie
     permission: deluxetags.tag.Lumi
   Nina Saotome:
-    order: 147
+    order: 148
     tag: '&8[&dNinaBro&8]&r'
     description: Indie
     permission: deluxetags.tag.Nina_Saotome
   Lily Hops:
-    order: 148
+    order: 149
     tag: '#319F51[Big #23A5E7Bro]&r'
     description: Indie
     permission: deluxetags.tag.Lily_Hops
   Snuffy:
-    order: 149
+    order: 150
     tag: '&8[&8Trash&eClan&8]&r'
     description: Indie
     permission: deluxetags.tag.Snuffy
   Athena Bambina:
-    order: 150
+    order: 151
     tag: '&8[&dDeerGang&8]&r'
     description: Indie
     permission: deluxetags.tag.Athena
   Isla Coleman:
-    order: 151
+    order: 152
     tag: '#B7DDF0[Cole #FFE3B1Knight]&r'
     description: Project Kawaii
     permission: deluxetags.tag.IslaColeman
   Namiji Freesia:
-    order: 152
+    order: 153
     tag: '#5EC4F9[Hero#F5D574ji]&r'
     description: Production Kawaii
     permission: deluxetags.tag.NamijiFreesia
   Nora Cat:
-    order: 153
+    order: 154
     tag: '#f5351c[#423c42Nezumi#ffba4a-#fefcf7san#f5351c]&r'
     description: Indie
     permission: deluxetags.tag.NoraCat
   Maru Nanamona:
-    order: 154
+    order: 155
     tag: '#b6958c[Tomo#dfc6a8bokujo]&r'
     description: VERSE
     permission: deluxetags.tag.MaruNanamona
   Nerine:
-    order: 155
+    order: 156
     tag: '#C1BDBD[Nerine Enjoyer]&r'
     description: Indie
     permission: deluxetags.tag.Nerine
   Kitanya Nyanta:
-    order: 156
+    order: 157
     tag: '#BFE0F3[Jel#EEB87Dly#9FB658bud]&r'
     description: Indie
     permission: deluxetags.tag.Nyanta
   Juniper Actias:
-    order: 157
+    order: 158
     tag: '&7[Lunapostle]&r'
     description: Indie
     permission: deluxetags.tag.Juniper
   SNEED:
-    order: 158
+    order: 159
     tag: '&8[&4&lSneed&r&8]&r'
     description: Sneedposter (DO NOT TRUST)
     permission: deluxetags.tag.sneed
   Annoying Orange:
-    order: 159
+    order: 160
     tag: '&8[&6Orange &lCHAD&r&8]&r'
     description: Annoying Orange
     permission: deluxetags.tag.joke
   Saddam Hussein:
-    order: 160
+    order: 161
     tag: '#C2B280[Dune #637d96Goon]&r'
     description: Saddam
     permission: deluxetags.tag.joke
   UOH:
-    order: 161
+    order: 162
     tag: '&k[&r&6&lUOHHHH&r&k]&r'
     description: UOOOOOHHHH cute AND funny
     permission: deluxetags.tag.joke
   ogey:
-    order: 162
+    order: 163
     tag: '&bogey&r'
     description: ogey
     permission: deluxetags.tag.joke
   rrat:
-    order: 163
+    order: 164
     tag: '&brrat&r'
     description: rrat
     permission: deluxetags.tag.joke
   Touhou:
-    order: 164
+    order: 165
     tag: '&8[&c2hu&8]&r'
     description: i love touhou :)
     permission: deluxetags.tag.2hu
   '[redacted]':
-    order: 165
+    order: 166
     tag: '&8&k[]&r&4Ｈｉｔｏｍｉ Ｃｈｒｉｓ－ｓｕｋｉ&8&k[]&r'
     description: '&f'
     permission: deluxetags.tag.[redacted]
   Tag:
-    order: 166
+    order: 167
     tag: '#000000deluxetags_tag&r'
     description: WHORE
     permission: deluxetags.tag.joke
