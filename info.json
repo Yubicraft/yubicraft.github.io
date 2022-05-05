@@ -756,23 +756,23 @@
                 "category": "Vapart",
                 "oshis": [
                     {
-                        "commandname": "UgeAnd"
+                        "commandname": "UgeAnd",
                         "realname": "Uge And"
                     },
                     {
-                        "commandname": "KanonKanade"
+                        "commandname": "KanonKanade",
                         "realname": "Kanon Kanade"
                     },
                     {
-                        "commandname": "AnkoKisaki"
+                        "commandname": "AnkoKisaki",
                         "realname": "Anko Kisaki"
                     },
                     {
-                        "commandname": "MetKomori"
+                        "commandname": "MetKomori",
                         "realname": "Met Komori"
                     },
                     {
-                        "commandname": "WatHuma"
+                        "commandname": "WatHuma",
                         "realname": "Wat Huma"
                     }
                 ]
@@ -781,15 +781,15 @@
                 "category": "Sugar Lyric",
                 "oshis": [
                     {
-                        "commandname": "ReneRyugasaki"
+                        "commandname": "ReneRyugasaki",
                         "realname": "Rene Ryugasaki"
                     },
                     {
-                        "commandname": "AnnaKuojo"
+                        "commandname": "AnnaKuojo",
                         "realname": "Anna Koujo"
                     },
                     {
-                        "commandname": "ChrisShishio"
+                        "commandname": "ChrisShishio",
                         "realname": "Chris Shishio"
                     }
                 ]
@@ -798,27 +798,27 @@
                 "category": "Hiyocro",
                 "oshis": [
                     {
-                        "commandname": "CannaAkane"
+                        "commandname": "CannaAkane",
                         "realname": "Canna Akane"
                     },
                     {
-                        "commandname": "NemoSuzumi"
+                        "commandname": "NemoSuzumi",
                         "realname": "Nemo Suzumi"
                     },
                     {
-                        "commandname": "PopoIeri"
+                        "commandname": "PopoIeri",
                         "realname": "Popo Ieri"
                     },
                     {
-                        "commandname": "KikiShisui"
+                        "commandname": "KikiShisui",
                         "realname": "Kiki Shisui"
                     },
                     {
-                        "commandname": "SeiTouri"
+                        "commandname": "SeiTouri",
                         "realname": "Sei Touri"
                     },
                     {
-                        "commandname": "YuriKohaku"
+                        "commandname": "YuriKohaku",
                         "realname": "Yuri Kohaku"
                     }
                 ]
