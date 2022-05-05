@@ -684,6 +684,148 @@
         ]
     },
     {
+        "root": "774"
+        "categories": [
+            {
+                "category": "Animare",
+                "oshis": [
+                    {
+                        "commandname": "HaneruInaba",
+                        "realname": "Haneru Inaba"
+                    },
+                    {
+                        "commandname": "RanInokuma",
+                        "realname": "Ran Inokuma"
+                    },
+                    {
+                        "commandname": "KukuKazami",
+                        "realname": "Kuku Kazami"
+                    },
+                    {
+                        "commandname": "IzumiYunohara",
+                        "realname": "Izumi Yunohara"
+                    },
+                    {
+                        "commandname": "RuiSeshima",
+                        "realname": "Rui Seshima"
+                    },
+                    {
+                        "commandname": "HikariHira",
+                        "realname": "Hikari Hira"
+                    },
+                    {
+                        "commandname": "RukakoOuka",
+                        "realname": "Rukako Ouka"
+                    },
+                    {
+                        "commandname": "TirolTsukinoki",
+                        "realname": "Tirol Tsukinoki"
+                    },
+                    {
+                        "commandname": "MiaKonan",
+                        "realname": "Mia Konan"
+                    },
+                    {
+                        "commandname": "IchikaSouya",
+                        "realname": "Ichika Souya"
+                    }
+                ]
+            },
+            {
+                "category": "Honeystrap",
+                "oshis": [
+                    {   
+                        "commandname": "PatraSuou",
+                        "realname": "Patra Suou"
+                    },
+                    {
+                        "commandname": "MarySaionji",
+                        "realname": "Mary Saionji"
+                    }, 
+                    {
+                        "commandname": "CharlotteShimamura",
+                        "realname": "Charlotte Shimamura"
+                    }, 
+                    {
+                        "commandname": "MicoSekishiro",
+                        "realname": "Mico Sekishiro"
+                    }
+                ]
+            },
+            {
+                "category": "Vapart",
+                "oshis": [
+                    {
+                        "commandname": "UgeAnd"
+                        "realname": "Uge And"
+                    },
+                    {
+                        "commandname": "KanonKanade"
+                        "realname": "Kanon Kanade"
+                    },
+                    {
+                        "commandname": "AnkoKisaki"
+                        "realname": "Anko Kisaki"
+                    },
+                    {
+                        "commandname": "MetKomori"
+                        "realname": "Met Komori"
+                    },
+                    {
+                        "commandname": "WatHuma"
+                        "realname": "Wat Huma"
+                    }
+                ]
+            },
+            {
+                "category": "Sugar Lyric",
+                "oshis": [
+                    {
+                        "commandname": "ReneRyugasaki"
+                        "realname": "Rene Ryugasaki"
+                    },
+                    {
+                        "commandname": "AnnaKuojo"
+                        "realname": "Anna Koujo"
+                    },
+                    {
+                        "commandname": "ChrisShishio"
+                        "realname": "Chris Shishio"
+                    }
+                ]
+            },
+            {
+                "category": "Hiyocro",
+                "oshis": [
+                    {
+                        "commandname": "CannaAkane"
+                        "realname": "Canna Akane"
+                    },
+                    {
+                        "commandname": "NemoSuzumi"
+                        "realname": "Nemo Suzumi"
+                    },
+                    {
+                        "commandname": "PopoIeri"
+                        "realname": "Popo Ieri"
+                    },
+                    {
+                        "commandname": "KikiShisui"
+                        "realname": "Kiki Shisui"
+                    },
+                    {
+                        "commandname": "SeiTouri"
+                        "realname": "Sei Touri"
+                    },
+                    {
+                        "commandname": "YuriKohaku"
+                        "realname": "Yuri Kohaku"
+                    }
+                ]
+            }
+        ]
+    },      
+    {
         "root": "Indie/Others",
         "categories": [
             {
