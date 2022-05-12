@@ -976,6 +976,10 @@
                     {
                         "commandname": "JuniperActias",
                         "realname": "Juniper Actias"
+                    },
+                    {
+                        "commandname": "Meat",
+                        "realname": "Meat"
                     }
                 ]
             },
