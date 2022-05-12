@@ -824,8 +824,38 @@
                 ]
             }
         ]
-    },      
+    }, 
     {
+         "root": "Idol Corporation",
+         "categories": [
+             {
+                 "category": "Gen 1",
+                 "oshis": [
+                     {
+                         "commandname": "EmiSuika",
+                         "realname": "Emi Suika"
+                     },
+                     {
+                         "commandname": "NeoSparkles",
+                         "realname": "Neo Sparkles"
+                     },
+                     {
+                         "commandname": "KattarinaQutie",
+                         "realname": "Kattarina Qutie"
+                     },
+                     {
+                         "commandname": "NikkiRei",
+                         "realname": "Nikki Rei"
+                     },
+                     {
+                         "commandname": "LilySin",
+                         "realname": "Lily Sin"
+                     }
+                 ]
+             }
+         ]
+     },
+     {
         "root": "Indie/Others",
         "categories": [
             {
