@@ -1,8 +1,18 @@
 .banner-image{
     max-width: 700px;
     width: 100%;
-border-radius: 15px;
-border:1px solid black
+
+}
+.craft-image{
+    max-width: 1200px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.funny-image{
+    max-width: 700px;
+    width: 100%;
+    border-radius: 10px;
 
 }
 .credit{
@@ -35,4 +45,9 @@ border:1px solid black
 body{
     background-image: url(./Tenma_yubi.jpg);
     background-size: cover;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
 }
