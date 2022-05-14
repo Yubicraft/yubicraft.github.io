@@ -980,6 +980,10 @@
                     {
                         "commandname": "Meat",
                         "realname": "Meat"
+                    },
+                    {
+                        "commandname": "Jinja",
+                        "realname": "Jinja"
                     }
                 ]
             },
