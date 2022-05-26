@@ -984,6 +984,10 @@
                     {
                         "commandname": "Jinja",
                         "realname": "Jinja"
+                    },
+                    {
+                        "commandname": "AmatsukaUto",
+                        "realname": "Amatsuka Uto"
                     }
                 ]
             },
