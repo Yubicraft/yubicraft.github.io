@@ -433,11 +433,63 @@
                     {
                         "commandname": "ShizukaRin",
                         "realname": "Shizuka Rin"
+                    },
+                    {
+                        "commandname": "HyakumantenbaraSalome",
+                        "realname": "Hyakumantenbara Salome"
+                    },
+                    {
+                        "commandname": "Kuzuha",
+                        "realname": "Kuzuha"
+                    },
+                    {
+                        "commandname": "HiguchiKaede",
+                        "realname": "Higuchi Kaede"
+                    },
+                    {
+                        "commandname": "KenmochiToya",
+                        "realname": "Kenmochi Toya"
+                    },
+                    {
+                        "commandname": "YukiChihiro",
+                        "realname": "Yuki Chihiro"
+                    },
+                    {
+                        "commandname": "SuzukaUtako",
+                        "realname": "Suzuka Utako"
+                    },
+                    {
+                        "commandname": "FuminoTamaki",
+                        "realname": "Fumino Tamaki"
+                    },
+                    {
+                        "commandname": "SasaKisaku",
+                        "realname": "Sasa Kisaku"
+                    },
+                    {
+                        "commandname": "Kanae",
+                        "realname": "Kanae"
+                    },
+                    {
+                        "commandname": "Kanae",
+                        "realname": "Kanae"
+                    },
+                    {
+                        "commandname": "HonmaHimawari",
+                        "realname": "Honma Himawari"
+                    },
+                    {
+                        "commandname": "SisterClaire",
+                        "realname": "Sister Claire"
+                    },
+                    {
+                        "commandname": "MatsukaiMao",
+                        "realname": "Matsukai Mao"
                     }
                 ]
             },
             {
-                "category": "Nijisanji ID",
+                "category": "Nijisanji ID/KR",
                 "oshis": [
                     {
                         "commandname": "HanaMacchia",
@@ -446,6 +498,19 @@
                     {
                         "commandname": "MikaMelatika",
                         "realname": "Mika Melatika"
+                    },
+                    {
+                        "commandname": "BanHada",
+                        "realname": "Ban Hada"
+                    }
+                ]
+            },
+            {
+                "category": "VirtualReal",
+                "oshis": [
+                    {
+                        "commandname": "Nox",
+                        "realname": "Nox"
                     }
                 ]
             },
@@ -1053,6 +1118,15 @@
                     {
                         "commandname": "MaruNanamona",
                         "realname": "Maru Nanamona"
+                    }
+                ]
+            },
+            {
+                "category": "VEE",
+                "oshis": [
+                    {
+                        "commandname": "Tulsi",
+                        "realname": "Tulsi"
                     }
                 ]
             },
