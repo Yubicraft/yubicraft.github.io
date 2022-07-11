@@ -706,7 +706,7 @@
         "root": "Phase-Connect",
         "categories": [
             {
-                "category": "Phase-CONNECT",
+                "category": "PHASE-Connect",
                 "oshis": [
                     {
                         "commandname": "PipkinPippa",
@@ -735,7 +735,12 @@
                     {
                         "commandname": "ShisuiMichiru",
                         "realname": "Shisui Michiru"
-                    },
+                    }
+                ]
+            },
+            {
+                "category": "PHASE-Invaders",
+                "oshis": [
                     {
                         "commandname": "KanekoLumi",
                         "realname": "Kaneko Lumi"
@@ -743,6 +748,35 @@
                     {
                         "commandname": "AmarisYuri",
                         "realname": "Amaris Yuri"
+                    }
+                ]
+            },
+            {
+                "category": "PHASE-Alias",
+                "oshis": [
+                    {
+                        "commandname": "RemiliaNephys",
+                        "realname": "Remilia Nephys"
+                    },
+                    {
+                        "commandname": "ChikasaAiri",
+                        "realname": "Chikasa Airi"
+                    },
+                    {
+                        "commandname": "AmanogawaShiina",
+                        "realname": "Amanogawa Shiina"
+                    },
+                    {
+                        "commandname": "HimemiyaRie",
+                        "realname": "Himemiya Rie"
+                    },
+                    {
+                        "commandname": "ErinaMakina",
+                        "realname": "Erina Makina"
+                    },
+                    {
+                        "commandname": "KomachiPanko",
+                        "realname": "Komachi Panko"
                     }
                 ]
             }
