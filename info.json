@@ -983,6 +983,14 @@
                 "category": "Tsunderia",
                 "oshis": [
                     {
+                        "commandname": "PurinInukai",
+                        "realname": "Purin Inukai"
+                    },
+                    {
+                        "commandname": "HanabiAnemachi",
+                        "realname": "HanabiAnemachi"
+                    },
+                    {
                         "commandname": "AmiyaAranha",
                         "realname": "Amiya Aranha"
                     },
@@ -1099,6 +1107,17 @@
                     {
                         "commandname": "KaguraNana",
                         "realname": "Kagura Nana"
+                    },
+                    {
+                        "commandname": "YazakiKallin",
+                        "realname": "Yazaki Kallin"
+                    },
+                    {
+                        "commandname": "MatsuroMeru",
+                        "realname": "Matsuro Meru"
+                    {
+                        "commandname": "NiniYuuna",
+                        "realname": "Nini Yuuna"
                     }
                 ]
             },
