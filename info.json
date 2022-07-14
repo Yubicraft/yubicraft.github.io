@@ -1175,6 +1175,22 @@
                     {
                         "commandname": "NamijiFreesia",
                         "realname": "Namiji Freesia"
+                    },
+                    {
+                        "commandname": "NeneAmano",
+                        "realname": "Nene Amano"
+                    },
+                    {
+                        "commandname": "ReinaSun",
+                        "realname": "Reina Sun"
+                    },
+                    {
+                        "commandname": "SheeIcho",
+                        "realname": "Shee Icho"
+                    },
+                    {
+                        "commandname": "LuaAsuka",
+                        "realname": "Lua Asuka"
                     }
                 ]
             },
