@@ -1010,6 +1010,15 @@
                 ]
             },
             {
+                "category": "Activ8",
+                "oshis": [
+                    {
+                        "commandname": "KizunaAi",
+                        "realname": "Kizuna Ai"
+                    }
+                ]
+            },
+            {
                 "category": "Indie",
                 "oshis": [
                     {
