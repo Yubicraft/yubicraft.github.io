@@ -381,6 +381,48 @@
                         "realname": "Aragami Oga"
                     }
                 ]
+            },
+            {
+                "category": "Holostars 4th Generation (Uproar)",
+                "oshis": [
+                    {
+                        "commandname": "HizakiGamma",
+                        "realname": "Hizaki Gamma"
+                    },
+                    {
+                        "commandname": "YatogamiFuma",
+                        "realname": "Yatogami Fuma"
+                    },
+                    {
+                        "commandname": "UtsugiUyu",
+                        "realname": "Utsugi Uyu"
+                    },
+                    {
+                        "commandname": "MinaseRio",
+                        "realname": "Minase Rio"
+                    }
+                ]
+            },
+            {
+                "category": "HolostarsEN 1st Generation (Tempus)",
+                "oshis": [
+                    {
+                        "commandname": "RegisAltare",
+                        "realname": "Regis Altare"
+                    },
+                    {
+                        "commandname": "MagniDezmond",
+                        "realname": "Magni Dezmond"
+                    },
+                    {
+                        "commandname": "AxelSyrios",
+                        "realname": "Axel Syrios"
+                    },
+                    {
+                        "commandname": "NoirVesper",
+                        "realname": "Noir Vesper"
+                    }
+                ]
             }
         ]
     },
@@ -697,6 +739,19 @@
                     {
                         "commandname": "Veibae",
                         "realname": "Veibae"
+                    }
+                ]
+            },
+            {
+                "category": "VShojoJP",
+                "oshis": [
+                    {
+                        "commandname": "Kson",
+                        "realname": "Kson"
+                    },
+                    {
+                        "commandname": "AmemiyaNazuna",
+                        "realname": "Amemiya Nazuna"
                     }
                 ]
             }
