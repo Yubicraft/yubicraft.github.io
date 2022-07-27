@@ -660,6 +660,35 @@
                         "realname": "Yugo Asuma"
                     }
                 ]
+            },
+            {
+                "category": "Nijisanji EN wave 6",
+                "oshis": [
+                    {
+                        "commandname": "MariaMarionette",
+                        "realname": "Maria Marionette"
+                    },
+                    {
+                        "commandname": "KyoKaneko",
+                        "realname": "Kyo Kaneko"
+                    },
+                    {
+                        "commandname": "AiaAmare",
+                        "realname": "Aia Amare"
+                    },
+                    {
+                        "commandname": "AsterArcadia",
+                        "realname": "Aster Arcadia"
+                    },
+                    {
+                        "commandname": "ScarleYonaguni",
+                        "realname": "Scarle Yonaguni"
+                    },
+                    {
+                        "commandname": "RenZotto",
+                        "realname": "Ren Zotto"
+                    }
+                ]
             }
         ]
     },
