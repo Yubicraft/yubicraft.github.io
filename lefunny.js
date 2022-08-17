@@ -1,4 +1,4 @@
-const max = 82
+const max = 83
 const img = document.getElementById("lefunny")
 const selectRandom = () => {
     const r = Math.floor(Math.random() * max) + 1;
