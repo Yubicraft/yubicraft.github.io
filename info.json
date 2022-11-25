@@ -1025,7 +1025,7 @@
          "root": "Idol Corporation",
          "categories": [
              {
-                 "category": "Gen 1",
+                 "category": "HE",
                  "oshis": [
                      {
                          "commandname": "EmiSuika",
@@ -1046,6 +1046,31 @@
                      {
                          "commandname": "LilySin",
                          "realname": "Lily Sin"
+                     }
+                 ]
+             },
+             {
+                 "category": "EN",
+                 "oshis": [
+                     {
+                         "commandname": "YukoYurei",
+                         "realname": "Yuko Yurei"
+                     },
+                     {
+                         "commandname": "JunaUnagi",
+                         "realname": "Juna Unagi"
+                     },
+                     {
+                         "commandname": "RinPenrose",
+                         "realname": "Rin Penrose"
+                     },
+                     {
+                         "commandname": "PochiWanmaru",
+                         "realname": "Pochi Wanmaru"
+                     },
+                     {
+                         "commandname": "FuyoCloverfield",
+                         "realname": "Fuyo Cloverfield"
                      }
                  ]
              }
