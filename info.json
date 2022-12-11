@@ -694,6 +694,35 @@
                     }
                 ]
             }
+            {
+                "category": "Nijisanji EN wave 7",
+                "oshis": [
+                    {
+                        "commandname": "KotokaTorahime",
+                        "realname": "Kotoka Torahime"
+                    },
+                    {
+                        "commandname": "VerVermillion",
+                        "realname": "Ver Vermillion"
+                    },
+                    {
+                        "commandname": "DoppioDropscythe",
+                        "realname": "Doppio Dropscythe"
+                    },
+                    {
+                        "commandname": "Hex Haywire",
+                        "realname": "HexHaywire"
+                    },
+                    {
+                        "commandname": "ZaionLanZa",
+                        "realname": "Zaion LanZa"
+                    },
+                    {
+                        "commandname": "MelocoKyoran",
+                        "realname": "Meloco Kyoran"
+                    }
+                ]
+            }
         ]
     },
     {
