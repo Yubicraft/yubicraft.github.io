@@ -421,6 +421,22 @@
                     {
                         "commandname": "NoirVesper",
                         "realname": "Noir Vesper"
+                    },
+                    {
+                        "commandname": "GalvisBettel",
+                        "realname": "Galvis Bettel"
+                    },
+                    {
+                        "commandname": "MachinaXFlayon",
+                        "realname": "Machina X Flayon"
+                    },
+                    {
+                        "commandname": "JosuijiShinri",
+                        "realname": "Josuiji Shinri"
+                    },
+                    {
+                        "commandname": "BanzoinHakka",
+                        "realname": "Banzoin Hakka"
                     }
                 ]
             }
