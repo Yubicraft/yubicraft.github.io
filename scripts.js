@@ -1,4 +1,4 @@
-//test
+//oshi picker
 let data
 let filtered
 let filter = ""
@@ -73,19 +73,22 @@ const printResult = () => {
     span.innerText = `/tags select ${result}`
     copybutton.style.display = 'inline'
 }
-const copySelection = () => {
+const copySelection = async () => {
 
-    const el = document.createElement('textarea');
-    el.value = span.innerText;
-    el.setAttribute('readonly', '');
-    el.style.position = 'absolute';
-    el.style.left = '-9999px';
-    document.body.appendChild(el);
-    el.select();
-    document.execCommand('copy');
-    document.body.removeChild(el);
+    await navigator.clipboard.writeText(span.innerText);
 }
 selectroot.addEventListener("change", handleSelectRoot)
 selectcat.addEventListener("change", handleSelectCat)
 selectoshi.addEventListener("change", printResult)
 filterinput.addEventListener("keyup", handleFilter)
+
+//random banner
+const max = 91
+const img = document.getElementById("lefunny")
+const selectRandom = () => {
+    const r = Math.floor(Math.random() * max) + 1;
+    img.src = `banners/b${r}.png`
+}
+img.addEventListener("click", selectRandom)
+selectRandom()
+
