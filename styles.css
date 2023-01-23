@@ -42,6 +42,9 @@
 }
 body {
   background-image: url(./Tenma_yubi.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   background-size: cover;
 }
 a {
