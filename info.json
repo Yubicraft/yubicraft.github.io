@@ -1195,6 +1195,15 @@
                 ]
             },
             {
+                "category": "PlayAsia",
+                "oshis": [
+                    {
+                        "commandname": "ObakePAM",
+                        "realname": "Obake PAM"
+                    }
+                ]
+            },
+            {
                 "category": "Indie",
                 "oshis": [
                     {
