@@ -1347,6 +1347,51 @@
                 ]
             },
             {
+                "category": "FlaVR",
+                "oshis": [
+                    {
+                        "commandname": "JuwunSugarbloom",
+                        "realname": "Juwun Sugarbloom"
+                    },
+                    {
+                        "commandname": "SenaBonBon",
+                        "realname": "Sena BonBon"
+                    },
+                    {
+                        "commandname": "MinnaVanilla",
+                        "realname": "Minna Vanilla"
+                    },
+                    {
+                        "commandname": "CitreaLolime",
+                        "realname": "Citrea Lolime"
+                    },
+                    {
+                        "commandname": "AbigillAnemoia",
+                        "realname": "Abigill Anemoia"
+                    },
+                    {
+                        "commandname": "NyanaSextynine",
+                        "realname": "Nyana Sextynine"
+                    },
+                    {
+                        "commandname": "AramintaAminthe",
+                        "realname": "Araminta Aminthe"
+                    },
+                    {
+                        "commandname": "MarieMehlo",
+                        "realname": "Marie Mehlo"
+                    },
+                    {
+                        "commandname": "MixieMixin",
+                        "realname": "Mixie Mixin"
+                    },
+                    {
+                        "commandname": "JubileeJonagold",
+                        "realname": "Jubilee Jonagold"
+                    },
+                ]
+            },
+            {
                 "category": "Indie (certified 4chan ORIGINAL)",
                 "oshis": [
                     {
