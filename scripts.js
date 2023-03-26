@@ -83,7 +83,7 @@ selectoshi.addEventListener("change", printResult)
 filterinput.addEventListener("keyup", handleFilter)
 
 //random banner
-const max = 93
+const max = 94
 const img = document.getElementById("lefunny")
 const selectRandom = () => {
     const r = Math.floor(Math.random() * max) + 1;
