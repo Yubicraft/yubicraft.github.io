@@ -1337,6 +1337,14 @@
                     {
                         "commandname": "GezuGezu",
                         "realname": "Gezu Gezu"
+                    },
+                    {
+                        "commandname": "Onolumi",
+                        "realname": "Onolumi"
+                    },
+                    {
+                        "commandname": "NimuSpacecat",
+                        "realname": "Nimu Spacecat"
                     }
                 ]
             },
