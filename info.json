@@ -449,6 +449,10 @@
                 "category": "Nijisanji",
                 "oshis": [
                     {
+                        "commandname": "HoshikawaSara",
+                        "realname": "Hoshikawa Sara"
+                    },
+                    {
                         "commandname": "AngeKatrina",
                         "realname": "Ange Katrina"
                     },
