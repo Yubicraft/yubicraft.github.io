@@ -1349,6 +1349,10 @@
                     {
                         "commandname": "NimuSpacecat",
                         "realname": "Nimu Spacecat"
+                    },
+                    {
+                        "commandname": "Filian",
+                        "realname": "Filian"
                     }
                 ]
             },
@@ -1412,6 +1416,14 @@
                     {
                         "commandname": "JubileeJonagold",
                         "realname": "Jubilee Jonagold"
+                    },
+                    {
+                        "commandname": "NayvellMilkdrop",
+                        "realname": "Nayvell Milkdrop"
+                    },
+                    {
+                        "commandname": "RaimiRicotta",
+                        "realname": "Raimi Ricotta"
                     }
                 ]
             },
