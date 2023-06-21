@@ -1124,7 +1124,27 @@
                      {
                          "commandname": "RiroRon",
                          "realname": "Riro Ron"
-                     }
+                     },
+                     {
+                         "commandname": "ConiConfetti",
+                         "realname": "Coni Confetti"
+                     },
+                     {
+                         "commandname": "RocaRourin",
+                         "realname": "Roca Rourin"
+                     },
+                     {
+                         "commandname": "KaiSaitoka",
+                         "realname": "Kai Saitoka"
+                     },
+                     {
+                         "commandname": "MomoOtako",
+                         "realname": "Momo Otako"
+                     },
+                     {
+                         "commandname": "PokoRakun",
+                         "realname": "Poko Rakun"
+                     },
                  ]
              }
          ]
@@ -1353,6 +1373,10 @@
                     {
                         "commandname": "Filian",
                         "realname": "Filian"
+                    },
+                    {
+                        "commandname": "Essie",
+                        "realname": "Essie"
                     }
                 ]
             },
