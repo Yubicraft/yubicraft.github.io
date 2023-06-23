@@ -894,6 +894,18 @@
                     {
                         "commandname": "AmarisYuri",
                         "realname": "Amaris Yuri"
+                    },
+                    {
+                        "commandname": "EmberAmane",
+                        "realname": "Ember Amane"
+                    },
+                    {
+                        "commandname": "DizzyDokuro",
+                        "realname": "Dizzy Dokuro"
+                    },
+                    {
+                        "commandname": "JellyHoshiumi",
+                        "realname": "Jelly Hoshiumi"
                     }
                 ]
             },
@@ -1228,6 +1240,23 @@
                     {
                         "commandname": "ObakePAM",
                         "realname": "Obake PAM"
+                    }
+                ]
+            },
+            {
+                "category": "EIEN",
+                "oshis": [
+                    {
+                        "commandname": "KikiLockheart",
+                        "realname": "Kiki Lockheart"
+                    },
+                    {
+                        "commandname": "SkyeShinryu",
+                        "realname": "SkyeShinryu"
+                    },
+                    {
+                        "commandname": "KiliaKurayami",
+                        "realname": "Kilia Kurayami"
                     }
                 ]
             },
