@@ -742,6 +742,23 @@
                         "realname": "Meloco Kyoran"
                     }
                 ]
+            },
+            {
+                "category": "Nijisanji EN wave 8",
+                "oshis": [
+                    {
+                        "commandname": "VezaliusBandage",
+                        "realname": "Vezalius Bandage"
+                    },
+                    {
+                        "commandname": "VantacrowBringer",
+                        "realname": "Vantacrow Bringer"
+                    },
+                    {
+                        "commandname": "YuQ.Wilson",
+                        "realname": "Yu Q. Wilson"
+                    }
+                ]
             }
         ]
     },
