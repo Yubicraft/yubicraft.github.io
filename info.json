@@ -1278,6 +1278,31 @@
                 ]
             },
             {
+                "category": "Pixel Link",
+                "oshis": [
+                    {
+                        "commandname": "MiunaUsako",
+                        "realname": "Miuna Usako"
+                    },
+                    {
+                        "commandname": "ChiakiKatsumi",
+                        "realname": "Chiaki Katsumi"
+                    },
+                    {
+                        "commandname": "RakiKazuki",
+                        "realname": "Raki Kazuki"
+                    },
+                    {
+                        "commandname": "LottieShinju",
+                        "realname": "Lottie Shinju"
+                    },
+                    {
+                        "commandname": "NebiNebu",
+                        "realname": "Nebi Nebu"
+                    }
+                ]
+            },
+            {
                 "category": "Indie",
                 "oshis": [
                     {
