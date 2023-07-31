@@ -308,6 +308,27 @@
                         "realname": "Hakos Baelz"
                     }
                 ]
+            },            
+            {
+                "category": "hololive EN 3rd Generation",
+                "oshis": [
+                    {
+                        "commandname": "ShioriNovella",
+                        "realname": "Shiori Novella"
+                    },
+                    {
+                        "commandname": "KosekiBijou",
+                        "realname": "Ceres Fauna"
+                    },
+                    {
+                        "commandname": "NerissaRavencroft",
+                        "realname": "Nerissa Ravencroft"
+                    },
+                    {
+                        "commandname": "FUWAMOCO",
+                        "realname": "FUWAMOCO"
+                    }
+                ]
             },
             {
                 "category": "hololive Staff",
