@@ -200,6 +200,31 @@
                 ]
             },
             {
+                "category": "hololive DEV_IS ReGLOSS",
+                "oshis": [
+                    {
+                        "commandname": "HiodoshiAo",
+                        "realname": "Hiodoshi Ao"
+                    },
+                    {
+                        "commandname": "OtonoseKanade",
+                        "realname": "Otonose Kanade"
+                    },
+                    {
+                        "commandname": "IchijouRirika",
+                        "realname": "Ichijou Ririka"
+                    },
+                    {
+                        "commandname": "JuufuuteiRaden",
+                        "realname": "Juufuutei Raden"
+                    },
+                    {
+                        "commandname": "TodorokiHajime",
+                        "realname": "Todoroki Hajime"
+                    }
+                ]
+            },
+            {
                 "category": "hololive ID 1st Generation",
                 "oshis": [
                     {
