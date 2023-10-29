@@ -805,6 +805,23 @@
                         "realname": "Yu Q Wilson"
                     }
                 ]
+            },
+            {
+                "category": "Nijisanji EN wave 9",
+                "oshis": [
+                    {
+                        "commandname": "KunaiNakasato",
+                        "realname": "Kunai Nakasato"
+                    },
+                    {
+                        "commandname": "VictoriaBrightshield",
+                        "realname": "Victoria Brightshield"
+                    },
+                    {
+                        "commandname": "ClaudeClawmark",
+                        "realname": "Claude Clawmark"
+                    }
+                ]
             }
         ]
     },
