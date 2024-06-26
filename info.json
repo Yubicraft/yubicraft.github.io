@@ -356,6 +356,27 @@
                 ]
             },
             {
+                "category": "hololive EN 4th Generation",
+                "oshis": [
+                    {
+                        "commandname": "ElizabethRoseBloodflame",
+                        "realname": "Elizabeth Rose Bloodflame"
+                    },
+                    {
+                        "commandname": "GigiMurin",
+                        "realname": "Gigi Murin"
+                    },
+                    {
+                        "commandname": "CeciliaImmergreen",
+                        "realname": "Cecilia Immergreen"
+                    },
+                    {
+                        "commandname": "RaoraPanthera",
+                        "realname": "Raora Panthera"
+                    }
+                ]
+            },
+            {
                 "category": "hololive Staff",
                 "oshis": [
                     {
