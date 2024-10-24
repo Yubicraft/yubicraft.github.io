@@ -1540,6 +1540,10 @@
                     {
                         "commandname": "TabbyRagtan",
                         "realname": "Tabby Ragtan"
+                    },
+                    {
+                        "commandname": "MoguGhost",
+                        "realname": "Mogu Ghost"
                     }
                 ]
             },
