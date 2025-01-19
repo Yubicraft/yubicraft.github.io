@@ -1544,6 +1544,18 @@
                     {
                         "commandname": "MoguGhost",
                         "realname": "Mogu Ghost"
+                    },
+                    {
+                        "commandname": "MintFantome",
+                        "realname": "Mint Fantome"
+                    },
+                    {
+                        "commandname": "Dooby3D",
+                        "realname": "Dooby"
+                    },
+                    {
+                        "commandname": "NimiNightmare",
+                        "realname": "Nimi Nightmare"
                     }
                 ]
             },
